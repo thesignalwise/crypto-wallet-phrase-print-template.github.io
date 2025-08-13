@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>加密货币助记词归档卡片 - 安全的Web3钱包备份打印模板 | TheSignalWise</title>
+  <meta name="description" content="专业的加密货币助记词打印模板，支持12/24位助记词安全归档。适用于比特币、以太坊等Web3钱包备份，A4纸张所见即所得打印效果，确保数字资产安全存储。"/>
+  <meta name="keywords" content="加密货币助记词,钱包备份,Web3,比特币助记词,以太坊钱包,助记词模板,数字货币安全,区块链钱包,私钥备份,冷存储"/>
+  <meta name="author" content="TheSignalWise"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://crypto-wallet-phrase-print-template.thesignalwise.com"/>
+  
+  <!-- Open Graph 标签 -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="加密货币助记词归档卡片 - 安全的Web3钱包备份模板"/>
+  <meta property="og:description" content="专业的加密货币助记词打印模板，支持12/24位助记词安全归档，确保数字资产安全存储"/>
+  <meta property="og:url" content="https://crypto-wallet-phrase-print-template.thesignalwise.com"/>
+  <meta property="og:site_name" content="TheSignalWise"/>
+  <meta property="og:locale" content="zh_CN"/>
+  
+  <!-- Twitter 卡片 -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="加密货币助记词归档卡片 - 安全的Web3钱包备份模板"/>
+  <meta name="twitter:description" content="专业的加密货币助记词打印模板，支持12/24位助记词安全归档"/>
+  
+  <!-- 结构化数据 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "加密货币助记词归档卡片",
+    "description": "专业的加密货币助记词打印模板，支持12/24位助记词安全归档",
+    "url": "https://crypto-wallet-phrase-print-template.thesignalwise.com",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "TheSignalWise",
+      "url": "https://thesignalwise.com"
+    },
+    "featureList": [
+      "支持12位和24位助记词",
+      "A4纸张打印优化",
+      "安全的离线模板",
+      "二维码图片支持",
+      "Web3钱包兼容"
+    ]
+  }
+  </script>
+  <style>
+    :root{
+      --ink:#0f172a; --muted:#5b6b86; --canvas:#ffffff; --page-bg:#e9eef7; --line:#d6deea;
+      --c1:#6ee7ff; --c2:#a78bfa; --c3:#22d3ee; --c4:#60a5fa; --c5:#f472b6; --accent:#3b82f6;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background: radial-gradient(1200px 600px at 15% 10%, #f2f6ff 0%, #eef2fb 40%, #e9eef7 100%);
+      color:var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+      line-height:1.5;
+      -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    }
+    .page{width:210mm; min-height:297mm; margin:9mm auto; background:var(--canvas); border-radius:16px; box-shadow: 0 20px 60px rgba(24,35,67,.12); position:relative; overflow:hidden;}
+    .page::before{content:""; position:absolute; inset:-2mm -2mm auto auto; height:42mm; width:42mm; background: radial-gradient(60% 60% at 70% 30%, rgba(102,204,255,.25), rgba(167,139,250,.18) 60%, transparent 70%); filter: blur(10px); pointer-events:none;}
+    .page::after{content:""; position:absolute; inset:auto auto -2mm -2mm; height:46mm; width:46mm; background: radial-gradient(60% 60% at 30% 70%, rgba(34,211,238,.22), rgba(240,149,207,.18) 60%, transparent 70%); filter: blur(12px); pointer-events:none;}
+    .canvas{padding:10mm}
+    .frame{position:relative; padding:9mm; padding-bottom: 4mm !important;border-radius:14px; background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(135deg, var(--c1), var(--c2), var(--c4)) border-box; border:2px solid transparent; box-shadow: 0 6px 18px rgba(31,53,105,.08);}
+    .header{margin-bottom:4mm; text-align:center}
+    .title{display:inline-flex; align-items:center; gap:10px; font-size:20pt; font-weight:900; letter-spacing:.2px; margin:0 0 5mm 0; background: linear-gradient(90deg, #0f172a, #0f172a 50%, #1f2b47 100%); color:transparent; -webkit-background-clip:text; background-clip:text;}
+    .logo{width:24px; height:24px; background: conic-gradient(from 20deg, var(--c1), var(--c2), var(--c4), var(--c5), var(--c1)); border-radius:6px; box-shadow: inset 0 0 0 1.5px rgba(255,255,255,.8);}
+    .top-info{display:grid; grid-template-columns: 0.6fr 0.8fr 1.6fr; gap:7mm; align-items:end;}
+    .stack{display:flex; flex-direction:column; gap:6px; min-width:0}
+    .label{font-size:10.5pt; color:var(--muted)}
+    .line-input{border:none; outline:none; border-bottom:3px solid transparent; padding:6px 2px 5px; font-size:12pt; font-weight:800; color:var(--ink); background: linear-gradient(#fff,#fff) padding-box, linear-gradient(90deg, var(--c1), var(--c4)) border-box; border-radius:4px; box-shadow: 0 1px 0 rgba(13,34,66,.06);}
+    .line-input:focus{border-image: linear-gradient(90deg, var(--c3), var(--c2)) 1; box-shadow: 0 3px 10px rgba(59,130,246,.12);}
+    .info-row{display:grid; grid-template-columns: 3fr 1fr; gap:7mm; margin-top:6mm; padding-bottom:6mm; border-bottom:2px solid #0f223f;}
+    .info-cell{padding:0}
+    .info-label{font-weight:900; font-size:11pt; margin-bottom:4px; color:#12223f}
+    .info-input{border:none; outline:none; width:100%; background:transparent; border-bottom:2px dashed #c2cde0; padding:8px 2px; font-size:11.2pt; color:var(--ink);}
+    #createTime{text-align:center; width:80%; margin:0 auto;}
+    .info-input:focus{border-bottom-style:solid; border-bottom-color: var(--c4)}
+    .badge-wrap{display:flex;justify-content:center;}
+    .badge{display:inline-flex; align-items:center; gap:10px; padding:10px 18px; border-radius:999px; font-weight:900; color:#183055; font-size:12pt; background: linear-gradient(180deg, rgba(236,244,255,.85), rgba(223,235,255,.85)); border:1px solid #e1ebfb; box-shadow: 0 6px 18px rgba(76,104,175,.12); margin:1mm auto 4mm;}
+    .dot{width:18px; height:18px; border-radius:6px; background: linear-gradient(135deg, var(--c2), var(--c4)); box-shadow: inset 0 0 0 1.2px rgba(255,255,255,.85);}
+    .grid{display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap:2.2mm;}
+    .cell{display:grid; grid-template-columns:auto 1fr; align-items:center; gap:8px; background: linear-gradient(180deg, rgba(255,255,255,.9), rgba(255,255,255,.9)) padding-box, linear-gradient(120deg, rgba(96,165,250,.25), rgba(167,139,250,.2)) border-box; border:1.5px solid transparent; border-radius:12px; padding:7px 10px; min-height:12.5mm; backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); box-shadow: 0 1px 0 rgba(16,33,66,.05); min-width:0;}
+    .num{width:22px; height:22px; border-radius:8px; background: linear-gradient(180deg, #f7fbff, #eef3fb); border:1.4px solid #bcd0ee; font-weight:900; font-size:10pt; color:#2f4064; display:flex; align-items:center; justify-content:center; box-shadow: inset 0 1px 0 rgba(255,255,255,.8); flex-shrink:0;}
+    .word{border:none; outline:none; border-bottom:2.5px solid transparent; padding:5px 2px 4px; font-size:11.5pt; font-weight:700; color:var(--ink); width:100%; min-width:0; background: linear-gradient(#fff,#fff) padding-box, linear-gradient(90deg, rgba(110,231,255,.4), rgba(96,165,250,.4)) border-box; border-radius:3px; box-shadow: 0 1px 0 rgba(13,34,66,.04);}
+    .word:focus{border-image: linear-gradient(90deg, var(--c3), var(--c2)) 1; box-shadow: 0 2px 8px rgba(59,130,246,.1);}
+    .warn{margin-top:6mm; display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border-radius:12px; background: linear-gradient(180deg, #fff6d8, #fff3c2); border:1px solid #f3d47a; color:#7c5a13; font-weight:700; box-shadow: 0 4px 12px rgba(202,149,22,.08);}
+    .notes{margin-top:7mm}
+    .notes-head{display:flex; align-items:center; gap:10px; margin-bottom:5mm; font-weight:900; color:#183055; font-size:12pt;}
+    .notes-head .bar{width:6px; height:18px; border-radius:6px; background: linear-gradient(180deg, var(--c1), var(--c2)); box-shadow: 0 2px 8px rgba(96,165,250,.35);}
+    .notes-grid{display:grid; grid-template-columns:1fr auto; gap:7mm; align-items:start}
+    .textarea{border-radius:12px; padding:12px 14px; height:42mm; width:100%; resize:none; outline:none; font-size:11pt; color:var(--ink); background: linear-gradient(#ffffff,#ffffff) padding-box, linear-gradient(135deg, rgba(99,102,241,.18), rgba(56,189,248,.18)) border-box; border:1.4px solid transparent; box-shadow: 0 2px 10px rgba(41,74,125,.06);}
+    .qr-card{width:42mm; display:flex; flex-direction:column; gap:8px}
+    .qr-box{width:42mm; height:42mm; border-radius:8px; background: linear-gradient(#fff,#fff) padding-box, repeating-linear-gradient(135deg, rgba(92,112,146,.3) 0 4px, rgba(92,112,146,.18) 4px 8px) border-box; border:1.6px dashed rgba(116,130,154,.7); display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; cursor:copy; padding:4px;}
+    .qr-hint{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#7585a3; font-size:9.6pt; padding:10px; text-align:center; pointer-events:none}
+    .qr-img{max-width:calc(100% - 8px); max-height:calc(100% - 8px); display:none; object-fit:contain;}
+    .footer{margin-top:7mm; padding-top:5mm; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:10px; color:#5b6b86; font-size:8.5pt; flex-wrap:wrap}
+    .footer a{color:#5b6b86; text-decoration:none; white-space:nowrap}
+    .footer a:hover{text-decoration:underline}
+    .footer > div{flex-shrink:0}
+    .footer > div:last-child{text-align:right; min-width:0}
+    
+    /* 可访问性样式 */
+    .sr-only{
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    /* 语义化元素样式调整 */
+    fieldset.grid{
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .notes-head h3{
+      margin: 0;
+      font-weight: 900;
+      color: #183055;
+      font-size: 12pt;
+      display: inline;
+    }
+    
+    /* 焦点可访问性 */
+    .qr-box:focus{
+      outline: 3px solid var(--c4);
+      outline-offset: 2px;
+    }
+    
+    @media print{
+      body{background:#fff}
+      .page{box-shadow:none; margin:0 auto; border-radius:0}
+      .badge{
+        background: #f8fafc !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: none !important;
+      }
+      .badge-wrap {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .warn{
+        background: #fefce8 !important;
+        border: 1px solid #facc15 !important;
+        box-shadow: none !important;
+      }
+      .textarea{
+        background: #ffffff !important;
+        border: 1px solid #d1d5db !important;
+        box-shadow: none !important;
+      }
+      .bar{
+        background: #3b82f6 !important;
+        box-shadow: none !important;
+      }
+      .word{
+        background: #ffffff !important;
+        border-bottom: 1px solid #d1d5db !important;
+        box-shadow: none !important;
+      }
+    }
+    @page{size:A4;margin:8mm}
+  </style>
+</head>
+<body>
+  <main class="page" role="main">
+    <div class="canvas">
+      <article class="frame">
+        <header class="header">
+          <h1 class="title"><span class="logo" aria-hidden="true"></span>加密货币助记词归档卡片</h1>
+          <section class="top-info" aria-label="基本钱包信息">
+            <div class="stack">
+              <label class="label" for="network">网络/App名称</label>
+              <input class="line-input" type="text" id="network" name="network" placeholder="" aria-describedby="network-help"/>
+              <span id="network-help" class="sr-only">输入区块链网络名称</span>
+            </div>
+            <div class="stack">
+              <label class="label" for="currency">币种/Token</label>
+              <input class="line-input" type="text" id="currency" name="currency" placeholder="" aria-describedby="currency-help"/>
+              <span id="currency-help" class="sr-only">输入加密货币类型</span>
+            </div>
+            <div class="stack">
+              <label class="label" for="walletName">钱包名称/用途</label>
+              <input class="line-input" type="text" id="walletName" name="walletName" placeholder="" aria-describedby="wallet-help"/>
+              <span id="wallet-help" class="sr-only">输入钱包的自定义名称</span>
+            </div>
+          </section>
+          <section class="info-row" aria-label="详细钱包信息">
+            <div class="info-cell">
+              <label class="info-label" for="walletAddress">合约地址（或钱包地址）</label>
+              <input class="info-input" type="text" id="walletAddress" name="walletAddress" placeholder="" aria-describedby="address-help"/>
+              <span id="address-help" class="sr-only">输入钱包的公开地址</span>
+            </div>
+            <div class="info-cell">
+              <label class="info-label" for="createTime">创建时间</label>
+              <input class="info-input" id="createTime" name="createTime" type="text" readonly aria-describedby="time-help"/>
+              <span id="time-help" class="sr-only">钱包创建的日期时间</span>
+            </div>
+          </section>
+        </header>
+        <section class="mnemonic-section" aria-label="助记词输入区域">
+          <div class="badge-wrap">
+            <h2 class="badge" role="heading" aria-level="2">
+              <span class="dot" aria-hidden="true"></span> 助记词 / 提示词（12/24位）
+            </h2>
+          </div>
+          <fieldset class="grid" aria-label="24位助记词输入">
+            <legend class="sr-only">请按顺序输入您的助记词，每个输入框对应一个单词</legend>
+            <div class="cell"><label class="num" for="word1">1</label><input class="word" type="text" id="word1" name="word1" aria-label="第1个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word2">2</label><input class="word" type="text" id="word2" name="word2" aria-label="第2个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word3">3</label><input class="word" type="text" id="word3" name="word3" aria-label="第3个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word4">4</label><input class="word" type="text" id="word4" name="word4" aria-label="第4个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word5">5</label><input class="word" type="text" id="word5" name="word5" aria-label="第5个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word6">6</label><input class="word" type="text" id="word6" name="word6" aria-label="第6个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word7">7</label><input class="word" type="text" id="word7" name="word7" aria-label="第7个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word8">8</label><input class="word" type="text" id="word8" name="word8" aria-label="第8个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word9">9</label><input class="word" type="text" id="word9" name="word9" aria-label="第9个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word10">10</label><input class="word" type="text" id="word10" name="word10" aria-label="第10个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word11">11</label><input class="word" type="text" id="word11" name="word11" aria-label="第11个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word12">12</label><input class="word" type="text" id="word12" name="word12" aria-label="第12个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word13">13</label><input class="word" type="text" id="word13" name="word13" aria-label="第13个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word14">14</label><input class="word" type="text" id="word14" name="word14" aria-label="第14个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word15">15</label><input class="word" type="text" id="word15" name="word15" aria-label="第15个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word16">16</label><input class="word" type="text" id="word16" name="word16" aria-label="第16个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word17">17</label><input class="word" type="text" id="word17" name="word17" aria-label="第17个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word18">18</label><input class="word" type="text" id="word18" name="word18" aria-label="第18个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word19">19</label><input class="word" type="text" id="word19" name="word19" aria-label="第19个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word20">20</label><input class="word" type="text" id="word20" name="word20" aria-label="第20个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word21">21</label><input class="word" type="text" id="word21" name="word21" aria-label="第21个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word22">22</label><input class="word" type="text" id="word22" name="word22" aria-label="第22个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word23">23</label><input class="word" type="text" id="word23" name="word23" aria-label="第23个助记词" autocomplete="off" spellcheck="false"></div>
+            <div class="cell"><label class="num" for="word24">24</label><input class="word" type="text" id="word24" name="word24" aria-label="第24个助记词" autocomplete="off" spellcheck="false"></div>
+          </fieldset>
+        </section>
+        <aside class="warn" role="alert" aria-live="polite">
+          <span aria-hidden="true">⚠️</span> 
+          <strong>重要提醒：</strong>请妥善保管此记录表，助记词是恢复钱包的唯一凭证，切勿泄露！
+        </aside>
+        
+        <!-- SEO隐藏内容 -->
+        <div class="sr-only">
+          <h2>关于加密货币助记词安全存储</h2>
+          <p>此模板适用于比特币(Bitcoin)、以太坊(Ethereum)、币安智能链(BSC)等主流区块链网络的钱包备份。</p>
+          <p>本模板是专业的Web3钱包助记词备份工具，支持BIP39标准的12位和24位助记词。适用于MetaMask、Trust Wallet、Ledger、Trezor等硬件钱包和软件钱包的离线备份。通过打印物理副本，您可以安全地存储比特币、以太坊、瑞波币、莱特币等数字资产的恢复短语。</p>
+          <p>这个助记词归档卡片模板采用A4纸张优化设计，确保打印效果清晰。支持冷存储方案，是数字货币安全管理的重要工具。无论您是DeFi用户、NFT收藏家还是加密货币投资者，都可以使用此模板来保护您的数字资产。</p>
+          <p>关键词：助记词备份、钱包恢复、私钥管理、区块链安全、数字货币存储、Web3安全、加密货币工具、BIP39标准、冷钱包备份</p>
+        </div>
+        <section class="notes" aria-label="备注和二维码区域">
+          <div class="notes-head">
+            <span class="bar" aria-hidden="true"></span>
+            <h3>备注信息</h3>
+          </div>
+          <div class="notes-grid">
+            <div>
+              <label for="notes" class="sr-only">备注信息输入区域</label>
+              <textarea 
+                class="textarea" 
+                id="notes" 
+                name="notes" 
+                placeholder="在此输入钱包相关的备注信息..."
+                aria-describedby="notes-help"
+              ></textarea>
+              <span id="notes-help" class="sr-only">可以记录钱包用途、重要提醒等信息</span>
+            </div>
+            <div class="qr-card">
+              <div 
+                class="qr-box" 
+                id="qrBox" 
+                tabindex="0" 
+                role="button"
+                aria-label="二维码图片上传区域，可以粘贴或拖拽图片"
+                aria-describedby="qr-help"
+              >
+                <div class="qr-hint" id="qrHint" aria-hidden="true">
+                  在此按 Ctrl/⌘+V 粘贴图片<br/>或拖拽图片到此
+                </div>
+                <img class="qr-img" id="qrImg" alt="钱包二维码预览图"/>
+              </div>
+              <span id="qr-help" class="sr-only">支持上传钱包地址的二维码图片</span>
+              <input type="hidden" id="qrData" name="qrData"/>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div>制表日期：<time id="footerDate" datetime=""></time></div>
+          <div>
+            <a 
+              href="https://crypto-wallet-phrase-print-template.thesignalwise.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="访问加密货币助记词模板官网"
+            >
+              crypto-wallet-phrase-print-template.thesignalwise.com
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://thesignalwise.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="访问见微知著.TheSignalWise官网"
+            >
+              见微知著.TheSignalWise
+            </a>
+          </div>
+          <div>
+            <a 
+              href="crypto-wallet-phrase-print-template_en.html"
+              aria-label="切换到英文版"
+            >
+              🌐 English
+            </a>
+          </div>
+        </footer>
+      </article>
+    </div>
+  </main>
+  <script>
+    (function(){
+      const now=new Date();
+      const y=now.getFullYear();
+      const m=String(now.getMonth()+1).padStart(2,'0');
+      const d=String(now.getDate()).padStart(2,'0');
+      const dateStr = `${y}-${m}-${d}`;
+      const footerDate = document.getElementById('footerDate');
+      footerDate.textContent = dateStr;
+      footerDate.setAttribute('datetime', dateStr);
+    })();
+    const qrBox=document.getElementById('qrBox');const qrImg=document.getElementById('qrImg');const qrHint=document.getElementById('qrHint');const qrData=document.getElementById('qrData');
+    function setImageSrc(u){qrImg.src=u;qrImg.style.display='block';qrHint.style.display='none';qrData.value=u;}
+    function handleFilesLike(items){for(const it of items){const f=it.getAsFile?it.getAsFile():it;if(f&&f.type&&f.type.startsWith('image/')){const r=new FileReader();r.onload=e=>setImageSrc(e.target.result);r.readAsDataURL(f);return true;}}return false;}
+    function handlePasteItems(items){for(const it of items){if(it.kind==='file'){const f=it.getAsFile();if(f&&f.type.startsWith('image/')){const r=new FileReader();r.onload=e=>setImageSrc(e.target.result);r.readAsDataURL(f);return true;}}else if(it.kind==='string'&&it.type==='text/plain'){it.getAsString(t=>{const s=t.trim();if(/^data:image\/[a-zA-Z]+;base64,/.test(s)){setImageSrc(s);}});} }return false;}
+    qrBox.addEventListener('paste',e=>{if(e.clipboardData){if(handlePasteItems(e.clipboardData.items))e.preventDefault();}});
+    ['dragenter','dragover'].forEach(v=>{qrBox.addEventListener(v,e=>{e.preventDefault();qrBox.style.borderColor='rgba(96,165,250,.9)';});});
+    ['dragleave','drop'].forEach(v=>{qrBox.addEventListener(v,e=>{e.preventDefault();qrBox.style.borderColor='rgba(116,130,154,.7)';});});
+    qrBox.addEventListener('drop',e=>{const f=e.dataTransfer?.files;if(f&&f.length){handleFilesLike(f);}});
+  </script>
+</body>
+</html>
