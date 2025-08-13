@@ -10,6 +10,8 @@
 
 专业的加密货币助记词打印模板，支持12/24位助记词安全归档。适用于比特币、以太坊等Web3钱包备份，A4纸张所见即所得打印效果，确保数字资产安全存储。
 
+![中文版预览](crypto-wallet-phrase-print-template-cn.jpg)
+
 ### 🌐 在线使用
 
 **立即使用**: [https://crypto-wallet-phrase-print-template.thesignalwise.com](https://crypto-wallet-phrase-print-template.thesignalwise.com)
@@ -76,6 +78,8 @@
 ### 📋 Project Overview
 
 Professional cryptocurrency mnemonic print template supporting secure archival of 12/24-word seed phrases. Perfect for Bitcoin, Ethereum and other Web3 wallet backups with A4 paper WYSIWYG print effects, ensuring digital asset security.
+
+![English Version Preview](crypto-wallet-phrase-print-template-en.jpg)
 
 ### 🌐 Online Access
 
