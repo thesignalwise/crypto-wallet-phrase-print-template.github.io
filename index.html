@@ -104,11 +104,12 @@
     .qr-box{width:42mm; height:42mm; border-radius:8px; background: linear-gradient(#fff,#fff) padding-box, repeating-linear-gradient(135deg, rgba(92,112,146,.3) 0 4px, rgba(92,112,146,.18) 4px 8px) border-box; border:1.6px dashed rgba(116,130,154,.7); display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; cursor:copy; padding:4px;}
     .qr-hint{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#7585a3; font-size:9.6pt; padding:10px; text-align:center; pointer-events:none}
     .qr-img{max-width:calc(100% - 8px); max-height:calc(100% - 8px); display:none; object-fit:contain;}
-    .footer{margin-top:7mm; padding-top:5mm; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:10px; color:#5b6b86; font-size:8.5pt; flex-wrap:wrap}
+    .footer{margin-top:7mm; padding-top:5mm; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:5px; color:#5b6b86; font-size:7.8pt; flex-wrap:wrap}
     .footer a{color:#5b6b86; text-decoration:none; white-space:nowrap; display:inline-flex; align-items:center;}
     .footer a:hover{text-decoration:underline}
     .footer > div{flex-shrink:0; display:flex; align-items:center;}
-    .footer > div:last-child{text-align:right; min-width:0; gap:8px;}
+    .footer > div:nth-child(2){flex-shrink:1; min-width:0;}
+    .footer > div:last-child{text-align:right; min-width:0; gap:6px;}
     
     /* 可访问性样式 */
     .sr-only{
